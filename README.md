@@ -1,1 +1,0 @@
-# livart_jiyoung
