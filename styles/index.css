@@ -36,6 +36,7 @@
 .h_bg header .h_right .bottom_layer nav ul li > a {
     font-size: 1.25rem; font-weight: 500; letter-spacing: -0.02rem;
     padding-right: 30px;
+    position: relative; top: 6px
 }
 .h_bg header .h_right .bottom_layer .right_search {
     background-color: #F2F2F2; width: 322px;
@@ -56,7 +57,7 @@
 /* --------------------------메인구역--------------------------------- */
 /* --------------------------1행 배너라인--------------------------------- */
 main .bnr_wrap {
-    height: 700px;
+    height: 700px; padding-bottom: 170px;
     position: relative;
 }
 main .bnr_wrap .bnr_container {
@@ -92,21 +93,48 @@ main .bnr_wrap .prev_btn img {}
 main .bnr_wrap .next_btn {right: 190px;}
 main .bnr_wrap .next_btn img {}
 /* --------------------------2행 MD추천--------------------------------- */
-main .wrap {}
-main .wrap .row2_title {}
+main .wrap {
+    width: 1400px; margin: 0 auto 200px;
+}
+main .wrap .row2_title {
+    border-bottom: 1px solid #000; 
+    display: flex; flex-flow: row nowrap; justify-content: space-between; align-items: flex-end;
+    padding-bottom: 20px;
+}
 main .wrap .row2_title .title {}
-main .wrap .row2_title .title h2 {}
-main .wrap .row2_title .title p {}
-main .wrap .row2_title > a {}
-main .wrap .row2_title > a > img {}
-main .wrap .row2_contents {}
-main .wrap .row2_contents ul {}
+main .wrap .row2_title .title h2 {
+    font-size: 2.19rem; font-weight: 700; letter-spacing: -0.02rem;
+    padding-bottom: 11px;
+}
+main .wrap .row2_title .title p {
+    font-size: 1.44rem; letter-spacing: -0.02rem;
+}
+main .wrap .row2_title > a {
+    border: 1px solid #555; padding: 5px 20px;
+}
+main .wrap .row2_title > a > img {
+    width: 16px; padding-left: 5px;
+}
+main .wrap .row2_contents {margin-top: 60px;}
+main .wrap .row2_contents ul {
+    display: flex; flex-flow: row nowrap; justify-content: space-between;
+    width: calc(100% - 60px) / 3;
+}
 main .wrap .row2_contents ul li {}
 main .wrap .row2_contents ul li > a {}
-main .wrap .row2_contents ul li > a > img {}
+main .wrap .row2_contents ul li > a > img {padding-bottom: 51px;}
 main .wrap .row2_contents ul li .txt {}
-main .wrap .row2_contents ul li .txt h3 {}
-main .wrap .row2_contents ul li .txt .mid_title {}
-main .wrap .row2_contents ul li .txt .mid_title span {}
+main .wrap .row2_contents ul li .txt h3 {
+    padding-bottom: 6px;
+    font-size: 1.25rem; letter-spacing: -0.02rem; line-height: 1.5;
+}
+main .wrap .row2_contents ul li .txt .mid_title {
+    font-size: 1.88rem; font-weight: 700; letter-spacing: -0.02rem;
+    color: #0A5E81;
+}
+main .wrap .row2_contents ul li .txt .mid_title span {
+    font-size: 1.44rem; letter-spacing: -0.02rem;    
+    color: #000;
+}
 main .row2 {}
 /* --------------------------푸터구역--------------------------------- */
