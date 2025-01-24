@@ -126,9 +126,7 @@ main .row4 {
     position: relative;
 }
 main .row4 .row_title {}
-main .row4 .row4_contents {
-    background-color: yellow;
-}
+main .row4 .row4_contents {}
 main .wrap .row4_contents .row4_slides {
     width: 100%; margin: 60px 0 0;
     display: flex; flex-flow: row nowrap; justify-content: space-around;

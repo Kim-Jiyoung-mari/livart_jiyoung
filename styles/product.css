@@ -135,9 +135,7 @@ main .item_wrap .info_right .item_option .color select {
 main .item_wrap .info_right .item_option .color select option {
     display: flex; justify-content: space-between;
 }
-main .item_wrap .info_right .item_option .color #color option span {
-    background-color: yellow;
-}
+main .item_wrap .info_right .item_option .color #color option span {}
 /* 주문 금액 구역============================================= */
 main .item_wrap .info_right .order_price {
     display: flex; flex-flow: row nowrap; justify-content: space-between;
